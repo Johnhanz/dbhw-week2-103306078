@@ -10,7 +10,38 @@ p{
   font-size: 100px;
   color: #fff;
 }
-
+#a {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background: #ffffff;
+  padding: 7px 14px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  color: #00bd32;
+  font-size: 24px;
+  font-family: Georgia, Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+#b {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background: #ffffff;
+  padding: 7px 14px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  color: #00bd32;
+  font-size: 24px;
+  font-family: Georgia, Serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
 
 .timer-wrapper {
   position: absolute;
@@ -40,8 +71,6 @@ p{
   border: 10px solid rgba(23, 246, 251, 1.0);
   border-top-color: #fff;
   border-bottom-color: #fff;
-  border-left-color: #000000;
-  border-right-color: #000000;
   border-radius: 500px;
   transition: all 0.5s ease;
 }
@@ -103,6 +132,8 @@ p{
   border-width: 2px;
   box-shadow: inset 0px 0px 25px rgba(23, 246, 251, .25);
   animation: spinBG 5s infinite linear;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
 
 .timer-wrapper > ul > li:nth-child(2) {
@@ -113,8 +144,10 @@ p{
   height: 270px;
   border-width: 2px;
   border-style: dotted;
-  box-shadow: 0px 0px 20px rgba(23, 246, 251, .5);
+  box-shadow: 0px 0px 20px rgba(23, 246, 251, .1);
   animation: spinBG2 8s infinite linear;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
 
 .timer-wrapper > ul > li:first-child {
@@ -124,7 +157,9 @@ p{
   width: 240px;
   height: 240px;
   border-width: 10px;
-  animation: spinBG 5s infinite linear;
+  animation: spinBG 3s infinite linear;
+  border-left-color: #000000;
+  border-right-color: #000000;
 }
 
 #num {

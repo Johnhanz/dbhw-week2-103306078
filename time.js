@@ -18,4 +18,7 @@ function minus() {
     minus();
   }, 1000);
 };
-minus();
+
+function re() {
+  document.getElementById("num").innerHTML = 60;
+}
